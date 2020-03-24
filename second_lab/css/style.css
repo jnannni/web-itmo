@@ -1,0 +1,148 @@
+
+.bond {
+    width: 19.5px;
+    height: 19.5px;
+    border-radius: 50%;
+    border: 2px solid #D55175;
+}
+.core {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #4A92B8;
+    transform: scale(0.9);
+    animation: 1.2s linear infinite beat;
+    margin: 3.25px auto;
+}
+
+.atom {
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.circles {
+    width: 120px;
+    height: 32px;
+    border: 2px solid #4A92B8;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle-1 {
+    transform: rotate(-45deg);
+    animation: 1.5s linear infinite rotate-1;
+}
+
+.circle-2 {
+    transform: rotate(45deg);
+    animation: 1.5s linear infinite rotate-2;
+}
+
+.circle-3 {
+    animation: 1.5s linear infinite rotate-3;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background: #272E3B;
+    justify-content: center;
+}
+
+.star {
+    position: absolute;
+    top: 40%;
+    right: 46%;
+    animation: 1.2s ease-in infinite blink;
+}
+
+.star-2 {
+    position: absolute;
+    top: 42%;
+    right: 45%;
+    transform: scale(0.8);
+    animation: 1.2s ease-in infinite blink-2;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 8px solid #D55175;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 8px solid #D55175;
+}
+
+.load-text {
+    position: absolute;
+    top: 65%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #D55175;
+    animation: 1.2s linear infinite blink;
+}
+
+@keyframes rotate-1 {
+    0% {
+        transform: rotate(90deg) translateX(8px);
+    }
+    50% {
+        transform: rotate(180deg) translateX(-8px);
+    }
+    100% {
+        transform: rotate(270deg) translateX(-8px);
+    }
+}
+
+@keyframes rotate-2 {
+    0% {
+        transform: rotate(0deg) translateX(8px);
+    }
+    50% {
+        transform: rotate(90deg) translateX(-8px);
+    }
+    100% {
+        transform: rotate(180deg) translateX(-8px);
+    }
+}
+
+@keyframes rotate-3 {
+    0% {
+        transform: scale(1) rotate(45deg);
+    }
+    50% {
+        transform: scale(0.8) rotate(135deg);
+    }
+    100% {
+        transform: scale(1) rotate(225deg);
+    }
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1.6);
+    }
+}
+
+@keyframes blink {
+    0% {
+        transform: scale(1.3);
+    }
+}
+
+@keyframes blink-2 {
+    0% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Exo';
+    src: local('Exo Thin'), local('Exo-Thin'), url('exothin.woff2') format('woff2'), url('exothin.woff') format('woff'), url('exothin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    position: absolute;
+    overflow: auto;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    color: #E0E0E0;
+    line-height: 24px;
+}
+
+.main-header {
+    padding-top: 10px;
+    color: #E0E0E0;
+    font-size: 50px;
+    line-height: 66px;
+    align-items: center;
+}
+
+header {
+    margin: 0px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    color: white;
+    background: black url(img/background_im.png);
+}
+
+/*.gallery {
+    width: 2400px;
+    height: 140px;
+    position: relative;
+}*/
+
+.start-page {
+    margin: 0px;
+    width: 100%;
+    height: 480px;
+    background: black url(../img/back.png);
+}
+
+.main-menu {
+    padding: 12px 0;
+    text-align: center;
+}
+
+.subheader {
+    padding-top: 10px;
+    color: #E0E0E0;
+    font-size: 40px;
+    line-height: 66px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+.networks li, .main-menu li {
+    display: inline;
+    padding: 8px;
+}
+
+.portfolio {
+    margin: 0px;
+    top: 50px;
+    width: 100%;
+    height: 480px;
+    background: rgba(182, 182, 182, 0.2);
+}
+
+#part-portfolio {
+    text-align: center;
+    color: black;
+}
+
+figure {
+    margin: 0 40px 0 50px;
+    display: block;
+    float: left;
+}
+
+figure img {
+    padding: 7px;
+    width: 308px;
+    height: 180px;
+}
+.about-me {
+    top: 530px;
+    width: 100%;
+    height: 480px;
+    background: rgba(228, 228, 228, 0.2);
+}
+
+#part-about-me {
+    color: black;
+    text-align: center;
+}
+.start-text {
+    padding: 140px 0 0 40px; 
+}
+
+.discription {
+    padding: 10px 0 0 40px;
+}
+
+.order-button {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #E5E5E5;
+    margin: 50px 0 0 40px;
+    color: #E5E5E5;
+    background-color: transparent;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.order {
+    top: 1010px;
+    width: 100%;
+    height: 280px;
+    background: #C4C4C4;
+}
+
+#part-order {
+    color: black;
+    text-align: center;
+}
+
+input[type="text"] {
+    margin: 10px 0 0 40px;
+    width: 320px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+input[type="email"] {
+    margin: 10px 0 0 40px;
+    width: 320px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+input[type="tel"] {
+    margin: 20px 0 0 40px;
+    width: 320px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.application-button {
+     width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #4A4A4A;
+    margin: 20px 0 0 40px;
+    color: #E5E5E5;
+    background-color: #4A4A4A;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.extra-information {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.networks {
+    text-align: center;
+    padding: 20px;
+}
+
+#scroll-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 75px;
+    height: 25px;
+    border: 1px solid #4A4A4A;
+    border-radius: 80px;
+    color: #E5E5E5;
+    background-color: #4A4A4A;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.avatar {
+    margin: 66px 0 0 250px;
+}
+
+.personal-inf {
+    margin: 49px 0 0 80px;
+    width: 350px;
+    height: 250px;
+    /*background-color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    border-radius: 30px;*/
+    color: #4A4A4A;
+}
+
+.profile {
+    display: flex;
+}
+
+.personal-inf p {
+    margin: 20px;
+}
+
+footer {
+    background: black;
+    top: 1290px;
+    height: 140px;
+}
