@@ -104,16 +104,19 @@ export function profilePage() {
 	tailImage.src = tailInf.imgURL;
 	tailImage.alt = tailInf.text;
 	pikachu.append(tailImage);
-	pikachu.classList.add('hidden');
+	pikachu.classList.add('hidden--class');
 
 	mainPage.append(pikachu);
 
-	pokeButton.onclick = function() {
-		if (pikachu.classList.contains('hidden')) {
-			pikachu.classList.remove('hidden');
+	function changeClass() {
+		if (pikachu.classList.contains('hidden--class')) {
+			pikachu.classList.remove('hidden--class');
 		} else {
-			pikachu.classList.add('hidden');	
+			pikachu.classList.add('hidden--class');	
 		}
 	};
+
+	pokeButton.onclick = changeClass;
+	pokeButton.removeEventListener('click', changeClass);
 	
 }

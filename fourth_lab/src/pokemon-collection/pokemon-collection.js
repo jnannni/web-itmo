@@ -108,4 +108,5 @@ export function pokeCollection() {
 	fetchPokemon().then();
 
 	pokeButton.onclick = fetchPokemon;
+	pokeButton.removeEventListener('click', fetchPokemon);
 }

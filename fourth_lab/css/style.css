@@ -223,7 +223,7 @@ a {
 	/* animation: 1s linear infinite move;
 	 */}
 
-.hidden {
+.hidden--class {
 	display: none;
 }
 
