@@ -117,6 +117,5 @@ export function profilePage() {
 	};
 
 	pokeButton.onclick = changeClass;
-	pokeButton.removeEventListener('click', changeClass);
 	
 }

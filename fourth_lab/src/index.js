@@ -28,7 +28,5 @@ if (localStorage.getItem('tab') == 2) {
 }
 
 pokeLink.onclick = pokemon;
-pokeLink.removeEventListener('click', pokemon);
 
 profileLink.onclick = profile;
-profileLink.removeEventListener('click', profile);
