@@ -7,8 +7,8 @@ export function profilePage() {
 	let personalInf = {
 		name: 'Katya Ladokhina',
 		age: 'Age: 19',
-		position: 'Position: ',
-		experience: 'Experience: 2014 - nowadays',
+		position: 'Position: Master in watching anime',
+		experience: 'Experience: 2014 - still',
 		achievement: 'Max number of episodes per day: 40',
 		pokemon: 'Pokemon that suits me: Mew',
 		extra: 'Degree: ITMO University M3307'
