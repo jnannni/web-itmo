@@ -215,13 +215,13 @@ a {
 .pikachu {
 	height: 80px;
 	width: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .tail {
 	height: 80px;
 	width: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 	transform-origin: bottom left;
 	/* animation: 1s linear infinite move;
 	 */}
