@@ -18,10 +18,8 @@ export function pokeCollection() {
 	};
 
 	let mainPage = document.querySelector('.main--page'); 
-	let navBarMenu = document.querySelector('.main--header').querySelector('.navbar').querySelector('.navbar--menu'); 
-	let links = navBarMenu.querySelectorAll('.navbar--menu-li');
-	let profileLink = links[0].querySelector('a');
-	let collectionLink = links[1].querySelector('a');
+	let profileLink = document.getElementById('first');
+	let collectionLink = document.getElementById('second');
 
 
 	if (collectionLink.classList.contains('active')) {
