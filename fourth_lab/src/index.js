@@ -1,10 +1,8 @@
 import {profilePage} from './profile-page/profile-page';
 import {pokeCollection} from './pokemon-collection/pokemon-collection';
 
-let profileLink = document.querySelector('.main--header').querySelector('.navbar')
-.querySelector('.navbar--menu').querySelector('#first').querySelector('a');
-let pokeLink = document.querySelector('.main--header').querySelector('.navbar')
-.querySelector('.navbar--menu').querySelector('#second').querySelector('a');
+let profileLink = document.getElementById('first');
+let pokeLink = document.getElementById('second');
 
 let pokemon = function () {
 	pokeCollection();

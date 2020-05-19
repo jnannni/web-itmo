@@ -35,10 +35,8 @@ export function profilePage() {
 	};
 
 	let mainPage = document.querySelector('.main--page'); 
-	let links = document.querySelector('.main--header').querySelector('.navbar').querySelector('.navbar--menu').
-	querySelectorAll('.navbar--menu-li'); 
-	let profileLink = links[0].querySelector('a');
-	let collectionLink = links[1].querySelector('a');
+	let profileLink = document.getElementById('first');
+	let collectionLink = document.getElementById('second');
 
 	if (profileLink.classList.contains('active')) {
 		mainPage.classList.add('first');
